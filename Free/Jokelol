@@ -1,5 +1,6 @@
+-- Pepsi Was Here [Petsi X]
 local petsiversion = "0.10"
-local Library = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)("Aeks Script")
+local Library = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)("Pepsi's UI Library")
 local Wait = Library.subs.Wait
 local Players = game:GetService("Players")
 local LP = Players.LocalPlayer or Library.LP
@@ -302,10 +303,10 @@ do
 	end
 end
 local PetsiXWindow = Library:CreateWindow({
-	Name = "Aeks Script",
+	Name = "Petsi X",
 	Themeable = {
 		Credit = false,
-		Info = {"Aeks Script, "Discord Server:e8tVSqyZ6V"}
+		Info = {"Library & GUI by Pepsi#5229", "Discord Server: VzYTJ7Y"}
 	},
 	DefaultTheme = shared.petsixtheme or "{\"__Designer.Colors.main\":\"2BC6FF\"}"
 })
